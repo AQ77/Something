@@ -6,7 +6,7 @@
 <p>
     <?php
         $query = $_GET["query"];
-        $type = $GET_["type"];
+        $type = $_GET["type"];
         echo "The query is " . $query . " and the type is " . $type;
     ?>
 </p>
