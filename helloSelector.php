@@ -9,7 +9,6 @@
 
     if($db->connect_errno){
         die('Connectfailed['.$db->connect_error.']');
-    }else{
-        echo "good job!";
     }
+    $sqladd = "INSERT INTO firsttable VALUES ('Aberdeenshire','blah','meh','sheesh','Alex','Quest')";
 ?>
