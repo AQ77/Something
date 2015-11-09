@@ -10,5 +10,4 @@
     if($db->connect_errno){
         die('Connectfailed['.$db->connect_error.']');
     }
-    $sqladd = "INSERT INTO firsttable VALUES ('Aberdeenshire','blah','meh','sheesh','Alex','Quest')";
 ?>
