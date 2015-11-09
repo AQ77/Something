@@ -5,9 +5,9 @@
 <body>
 <p>
     <?php
-    for($i = 1; $i <= 10; $i++){
-        echo "<p>" . $i . " Hello! </p>";
-    }
+        $query = $_GET["query"];
+        $type = $GET_["type"];
+        echo "The query is " . $query . " and the type is " . $type;
     ?>
 </p>
 </body>
